@@ -18,10 +18,10 @@ const Home = () => (
   </Box>
 );
 
-const About = () => (
+const Contact = () => (
   <Box>
     <Typography variant='h3' component='h1'>
-      About
+      Contact
     </Typography>
   </Box>
 );
@@ -34,8 +34,8 @@ const About = () => (
   </Box>
 );
 
-function App() {
-  return <ThemeProvider theme={appTheme}>
+const About = () => (
+  <Boxider theme={appTheme}>
     <Box component='main'
       sx={{
         height: '100vh',
