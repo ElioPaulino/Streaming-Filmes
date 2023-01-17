@@ -26,14 +26,6 @@ const About = () => (
   </Box>
 );
 
-const About = () => (
-  <Box>
-    <Typography variant='h3' component='h1'>
-      Welcome
-    </Typography>
-  </Box>
-);
-
 function App() {
   return <ThemeProvider theme={appTheme}>
     <Box component='main'
